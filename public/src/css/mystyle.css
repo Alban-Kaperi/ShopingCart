@@ -1,0 +1,167 @@
+/****************Shrkimi per logon********************/
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+/****************Shkrimi per description********************/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/****************Shkrimi per title********************/
+@import url('https://fonts.googleapis.com/css?family=Anton');
+/****************Shkrimi per title versioni 2********************/
+@import url('https://fonts.googleapis.com/css?family=Francois+On');
+
+/**********************the best pizza in town shrkim me pershtatje*******************************/
+#frontpageImage{
+font-family: 'Great Vibes';position: absolute;
+    
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+@media only screen and (max-width: 548px) {
+#frontpageImage{
+  top: 40px;
+  font-size:50px
+}
+}
+@media only screen and (min-width: 549px) and (max-width: 768px) { 
+#frontpageImage{
+ top: 60px;
+  font-size:65px
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1014px) { 
+#frontpageImage{
+ top: 100px;
+  font-size:80px
+}
+ }
+ @media only screen and (min-width: 1014px) and (max-width: 1350px) { 
+#frontpageImage{
+ top: 110px;
+  font-size:100px
+}
+ }
+@media only screen and (min-width: 1351px) { 
+
+#frontpageImage{
+  top: 130px;
+  font-size:120px
+} }
+/*****************************************************/
+
+
+
+.navbar-logo{
+  font-family: 'Great Vibes', cursive;
+  padding-top: 21px;
+  padding-left: 51px;
+  padding-right: 51px;
+  font-size: 35px;
+}
+
+
+.thumbnail-img{
+    max-height:150px;
+}
+.thumbnail .description{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+.price{
+    font-weight: bold;
+    font-size:18px;
+}
+
+
+/***Stilimi i navba jane futur mbrenda nje div me id navigationbar qe mos te cenoje html e tjera******/
+
+#navigationbar .navbar, #navigationbar .dropdown-menu {
+  background: #021b26;
+  /*ketu ndryshon ngjyra e navbar*/
+  border: none;
+}
+#navigationbar .navbar-toggle .icon-bar {
+  color: #fff;
+  background: white;
+  /*ketu ndryshon ngjyra e toggle*/
+}
+#navigationbar .nav > li > a {
+  border-bottom: 3px solid transparent;
+}
+#navigationbar .dropdown-menu > li {
+  border-bottom: 3px solid transparent;
+}
+#navigationbar .dropdown-menu > li > a {
+  border-bottom: 3px solid transparent;
+}
+#navigationbar .dropdown-menu > li > a:focus, #navigationbar .dropdown-menu > li > a:hover {
+  border-bottom: 3px solid transparent;
+}
+#navigationbar .nav > li > a:focus, #navigationbar .nav > li > a:hover {
+  border-bottom: 3px solid transparent;
+  background: rgba(154, 154, 154, 0.27);
+}
+#navigationbar .nav .open > a {
+  border-bottom: 3px solid transparent;
+  background: rgba(154, 154, 154, 0.27);
+}
+#navigationbar .nav .open > a:focus, #navigationbar .nav .open > a:hover {
+  border-bottom: 3px solid transparent;
+  background: rgba(154, 154, 154, 0.27);
+}
+#navigationbar .dropdown-menu > li > a:focus, #navigationbar .dropdown-menu > li > a:hover {
+  border-bottom: 3px solid transparent;
+  background: rgba(154, 154, 154, 0.27);
+}
+#navigationbar .navbar a {
+  color: #fff;
+}
+#navigationbar .dropdown-menu > li > a {
+  color: #fff;
+}
+#navigationbar .dropdown-menu > li > a:focus, #navigationbar .dropdown-menu > li > a:hover {
+  color: #fff;
+}
+#navigationbar .navbar-toggle {
+  color: #fff;
+}
+#navigationbar .dropdown-menu {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#navigationbar .nav li:hover:nth-child(8n+1), #navigationbar .nav li.active:nth-child(8n+1) {
+  border-bottom: #b6f423 4px solid;
+}
+#navigationbar .nav li:hover:nth-child(8n+2), #navigationbar .nav li.active:nth-child(8n+2) {
+  border-bottom: #82e2ea 4px solid;
+}
+#navigationbar .nav li:hover:nth-child(8n+3), #navigationbar .nav li.active:nth-child(8n+3) {
+  border-bottom: #f8b42c 4px solid;
+}
+#navigationbar .nav li:hover:nth-child(8n+4), #navigationbar .nav li.active:nth-child(8n+4) {
+  border-bottom: #fd594a 4px solid;
+}
+#navigationbar .nav li:hover:nth-child(8n+5), #navigationbar .nav li.active:nth-child(8n+5) {
+  border-bottom: #e8479d 4px solid;
+}
+#navigationbar .nav li:hover:nth-child(8n+6), #navigationbar .nav li.active:nth-child(8n+6) {
+  border-bottom: #a12eeb 4px solid;
+}
+#navigationbar .nav li:hover:nth-child(8n+7), #navigationbar .nav li.active:nth-child(8n+7) {
+  border-bottom: #4785d9 4px solid;
+}
+#navigationbar .nav li:hover:nth-child(8n+8), #navigationbar .nav li.active:nth-child(8n+8) {
+  border-bottom: #2aed9a 4px solid;
+}
+
+/*********************** Fundi i stilimi te navigationbarit**********/
+
+/******hr me ngjyra*******/
+.colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
